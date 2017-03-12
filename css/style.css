@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Base Element Styles
 ==================================== */
 
@@ -44,22 +44,22 @@ img {
 figure {
 	margin: 0;
 	line-height: 0;
-  position: relative;
+	position: relative;
 }
 
 figcaption {
 	font-size: .9em;
 	line-height: 1.5;
 	color: #fff;
-	padding: 1em;	
+	padding: 1em;
 	background: rgba(19,43,102, .85);
 
-position:absolute;
-  bottom: 0;
-  width: 100%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
@@ -80,7 +80,7 @@ position:absolute;
 		text-align: center;
 		padding: 10px 15px;
 	}
-	
+
 	.main-nav a {
 		font-size: .95em;
 		color: #3acec2;
@@ -132,36 +132,33 @@ position:absolute;
 }
 
 .icon-location {
-  width: 35px;
-  position: absolute;
-  top: -15px;
-  right: -15px;
-  z-index: 2;
+	width: 35px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	z-index: 2;
 }
 
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
 
-body {
-  padding-top: 68px;
-}
+	body {
+		padding-top: 68px;
+	}
 
+	.main-header {
+		position: fixed;
+		background: #fff;
+		box-shadow: 0 1px 4px rgba(0,0,0,.4);
+		width: 100%;
+		top: 0;
+		z-index: 1000;
+	}
 
-.main-header {
-    position: fixed;
-    background: #fff;
-    box-shadow: 0 1px 4px rga(0,0,0, .4);
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-
-
-container {
+	.container {
 		width: 90%;
 		margin: 0 auto;
 	}
@@ -200,7 +197,7 @@ container {
 }
 
 @media (min-width: 1025px) {
-	
+
 	.container {
 		width: 80%;
 		max-width: 1150px;
